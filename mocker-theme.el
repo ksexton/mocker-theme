@@ -212,7 +212,44 @@
 
     ;; mu4e
 
-    `(mu4e-header-highlight-face ((t (:inherit 'mocker-primary-1))))
+    `(mu4e-header-highlight-face ((t (:background ,mocker-orange+1 :foreground ,mocker-black))))
+    `(mu4e-unread-face ((t (:foreground ,mocker-yellow :weight normal))))
+    `(mu4e-header-face ((t (:foreground ,mocker-gray-2 :weight normal))))
+    `(mu4e-view-header-key-face ((t (:foreground ,mocker-purple :weight normal))))
+
+;; (defface mu4e-unread-face
+;; (defface mu4e-moved-face
+;; (defface mu4e-trashed-face
+;; (defface mu4e-draft-face
+;; (defface mu4e-flagged-face
+;; (defface mu4e-replied-face
+;; (defface mu4e-forwarded-face
+;; (defface mu4e-header-face
+;; (defface mu4e-header-title-face
+;; (defface mu4e-header-highlight-face
+;; (defface mu4e-header-marks-face
+;; (defface mu4e-view-header-key-face
+;; (defface mu4e-view-header-value-face
+;; (defface mu4e-view-special-header-value-face
+;; (defface mu4e-view-link-face
+;; (defface mu4e-view-contact-face
+;; (defface mu4e-highlight-face
+;; (defface mu4e-title-face
+;; (defface mu4e-footer-face
+;; (defface mu4e-view-url-number-face
+;; (defface mu4e-view-attach-number-face
+;; (defface mu4e-cited-1-face
+;; (defface mu4e-cited-2-face
+;; (defface mu4e-cited-3-face
+;; (defface mu4e-cited-4-face
+;; (defface mu4e-cited-5-face
+;; (defface mu4e-cited-6-face
+;; (defface mu4e-cited-7-face
+;; (defface mu4e-system-face
+;; (defface mu4e-ok-face
+;; (defface mu4e-warning-face
+
+    
 
 
    ;; org-mode
@@ -269,3 +306,4 @@
 ;; End:
 
 ;;; mocker-theme.el ends here.
+
