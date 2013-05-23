@@ -210,6 +210,10 @@
     `(font-lock-operator-face ((t (:inherit 'mocker-primary-3))))
 
 
+    ;; mu4e
+
+    `(mu4e-header-highlight-face ((t (:inherit 'mocker-primary-1))))
+
 
    ;; org-mode
    ;; `(org-document-title ((,class (:foreground ,mocker-cyan :background ,mocker-black :weight bold :height 1.5))))
