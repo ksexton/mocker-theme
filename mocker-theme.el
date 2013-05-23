@@ -212,8 +212,9 @@
 
     ;; mu4e
 
-    `(mu4e-header-highlight-face ((t (:background ,mocker-green-1 :foreground ,mocker-black))))
-    `(mu4e-unread-face ((t (:foreground ,mocker-yellow :weight normal))))
+    `(mu4e-header-highlight-face ((t (:background ,mocker-bg-1 :weight bold :underline nil))))
+    `(mu4e-unread-face ((t (:foreground ,mocker-blue :weight normal))))
+    `(mu4e-replied-face ((t (:foreground ,mocker-green-1 :weight normal))))
     `(mu4e-header-face ((t (:foreground ,mocker-gray-2 :weight normal))))
     `(mu4e-view-header-key-face ((t (:foreground ,mocker-purple :weight normal))))
 
